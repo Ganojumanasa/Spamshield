@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "SpamShield",
+    "version": "1.0",
+    "description": "A Chrome extension to detect spam messages and URLs.",
+    "permissions": ["storage", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/shield-icon.svg"
+      }
+    },
+    "icons": {
+      "16": "images/shield-icon.svg"
+    }
+  }
+  

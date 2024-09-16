@@ -1,0 +1,14 @@
+{
+    "name": "spamshield-server",
+    "version": "1.0.0",
+    "description": "Backend server for SpamShield extension",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "csv-parser": "^3.0.0"
+    }
+  }
+  
